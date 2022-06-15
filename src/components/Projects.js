@@ -4,7 +4,7 @@ import calculator from "../images/calculator.png";
 const Projects = () => {
   return (
     <div>
-      <div class="projectspage">
+      <div class="projectspage" id="project">
         <div class="hero heroproject">
           <h1>PROJECTS</h1>
         </div>

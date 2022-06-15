@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div>
       {" "}
-      <div class="skillspage">
+      <div class="skillspage" id="skills">
         <div class="hero heroskills">
           <h1>SKILLS</h1>
         </div>

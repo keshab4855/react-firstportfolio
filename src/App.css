@@ -135,6 +135,10 @@ p {
   top: 19%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .skillspage .skills,
 .projectspage .projects,
 .about-me-page .about-me,

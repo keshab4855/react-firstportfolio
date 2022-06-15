@@ -4,7 +4,7 @@ import rotated from "../images/rotated.png";
 const About = () => {
   return (
     <>
-      <div class="about-me-page">
+      <div class="about-me-page" id="about">
         <div class="hero heroabout">
           <h1>ABOUT ME</h1>
         </div>

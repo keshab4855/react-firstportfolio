@@ -19,16 +19,25 @@ const Home = () => {
           </div>
           <div class="navbar intro">
             <div class="skills">
-              <h4>Skills</h4>
+              <a href="#skills">
+                <h4>Skills</h4>
+              </a>
             </div>
             <div class="projects">
-              <h4>Projects</h4>
+              <a href="#project">
+                <h4>Projects</h4>
+              </a>
             </div>
             <div class="about-me">
-              <h4>About me</h4>
+              <a href="#about">
+                <h4>About me</h4>
+              </a>
             </div>
             <div class="contact">
-              <h4>Contact</h4>
+              <a href="#contact">
+                {" "}
+                <h4>Contact</h4>
+              </a>
             </div>
           </div>
 
