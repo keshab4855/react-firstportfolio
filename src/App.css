@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page 1 */
+.introduction,
+.skillspage,
+.projectspage,
+.about-me-page,
+.contactpage {
+  height: 100vh;
+  width: 95vw;
+  margin: auto;
+  background-color: #d2e4fe;
+  box-shadow: 10px 10px 20px 0px hsla(216, 40%, 63%, 1) inset;
+
+  box-shadow: -10px -10px 20px 0px hsla(0, 0%, 100%, 1) inset;
+  position: relative;
+}
+
+.hero {
+  height: 60%;
+  width: 100%;
+  background: linear-gradient(
+    191.89deg,
+    #14276b 1.53%,
+    rgba(125, 148, 232, 0) 91.3%
+  );
+  border-bottom: 14px solid hsla(0, 0%, 100%, 1);
+  box-shadow: 5px 5px 10px 0px hsla(0, 17%, 88%, 1) inset;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.headerimg {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  position: relative;
+  top: 25%;
+}
+.shadow {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  top: 25%;
+  border-radius: 50%;
+
+  box-shadow: -5px -5px 10px 0px hsla(0, 0%, 100%, 1) inset,
+    10px 10px 20px 0px hsla(216, 30%, 58%, 1) inset;
+}
+h1 {
+  color: #d2e4fe;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.navbar {
+  width: 90%;
+  position: absolute;
+  display: flex;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  justify-content: space-between;
+  /* gap: 15rem; */
+}
+.intro {
+  top: 50%;
+}
+
+.skills,
+.projects,
+.about-me,
+.contact {
+  color: hsla(227, 68%, 25%, 1);
+  font-family: Lemon;
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background: #d2e4fe;
+  box-shadow: -5px -5px 10px 0px hsla(0, 0%, 100%, 1) inset,
+    10px 10px 20px 0px hsla(216, 25%, 69%, 1) inset;
+}
+
+h2,
+p {
+  color: #14276b;
+  margin-bottom: 30px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 20%;
+}
+
+/* Skills */
+
+.skillspage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroskills,
+.heroproject,
+.heroabout,
+.herocontact {
+  height: 25%;
+  width: 100%;
+}
+
+.herocontact {
+  height: 30%;
+}
+
+.skillsnav,
+.projectsnav,
+.aboutmenav {
+  position: absolute;
+  top: 15%;
+  /* justify-content: center; */
+}
+.contactmenav {
+  top: 19%;
+}
+
+.skillspage .skills,
+.projectspage .projects,
+.about-me-page .about-me,
+.contactpage .contact {
+  background-color: #14276b;
+  color: #d2e4fe;
+
+  box-shadow: -5px -5px 10px 0px hsla(0, 0%, 100%, 1) inset,
+    10px 10px 20px 0px hsla(227, 63%, 27%, 1) inset;
+}
+
+.iconbox {
+  width: 50%;
+
+  margin: 7rem auto 2rem auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 3rem;
+  column-gap: 2rem;
+}
+
+.icon {
+  width: 10rem;
+  height: 9rem;
+  background: hsla(216, 96%, 91%, 1);
+  border: 1px solid hsla(0, 0%, 100%, 1);
+  box-shadow: -10px -10px 20px 0px hsla(0, 0%, 100%, 1),
+    10px 10px 20px 0px hsla(216, 25%, 69%, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.fa-brands {
+  font-size: 4rem;
+}
+
+.bootstrap {
+  color: hsla(256, 83%, 48%, 1);
+}
+
+.react {
+  color: hsla(227, 89%, 51%, 1);
+}
+
+.nodejs {
+  color: hsla(126, 69%, 33%, 1);
+}
+
+.js,
+.database {
+  color: hsla(43, 100%, 51%, 1);
+}
+
+.sass {
+  color: hsla(299, 95%, 51%, 1);
+}
+
+/* Projects */
+
+.box1,
+.box2 {
+  width: 50%;
+  height: 12rem;
+  background: hsla(216, 96%, 91%, 1);
+  border: 1px solid hsla(216, 96%, 91%, 1);
+  box-shadow: -5px -5px 10px 0px hsla(0, 0%, 100%, 1),
+    15px 15px 30px 0px hsla(216, 25%, 69%, 1);
+  display: flex;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.box1 {
+  margin: 4.5rem auto auto auto;
+}
+
+.box2 {
+  margin: 1rem auto auto auto;
+}
+
+.textbox {
+  width: 60%;
+  height: 100%;
+  margin: auto 1rem auto;
+}
+
+li {
+  list-style-type: none;
+  color: #14276b;
+  height: 100%;
+  /* line-height: 22px; */
+}
+h3 {
+  margin-bottom: 10px;
+  color: #14276b;
+}
+
+.imagebox {
+  width: 40%;
+  border-left: 2px solid #14276b;
+  border-right: 2px solid #14276b;
+}
+
+.calculatorimg {
+  width: 100%;
+  height: 100%;
+}
+
+/* ABOUT ME */
+.aboutbox {
+  margin-top: 8rem;
+  height: 20rem;
+}
+
+.aboutimage {
+  width: 45%;
+  position: relative;
+}
+.abouttext {
+  width: 55%;
+}
+
+.aboutpic {
+  width: 90%;
+  height: 90%;
+  border: 1px solid hsla(0, 0%, 90%, 1);
+  box-shadow: 10px 10px 20px 0px hsla(216, 30%, 58%, 1) inset,
+    -5px -5px 10px 0px hsla(0, 0%, 100%, 1) inset;
+  border-radius: 20px;
+}
+
+.shadow1 {
+  position: absolute;
+  width: 90%;
+  height: 16rem;
+  top: 0;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px 0px hsla(216, 30%, 58%, 1) inset,
+    -5px -5px 10px 0px hsla(0, 0%, 100%, 1) inset;
+}
+
+/* Contact Page */
+.contactpage {
+  display: flex;
+  flex-direction: column;
+}
+
+.socialiconbox {
+  margin-top: 12rem;
+  margin-left: 3rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialicon {
+  width: 7rem;
+  height: 7rem;
+  border: 1px solid hsla(0, 0%, 100%, 1);
+  box-shadow: -10px -10px 20px 0px hsla(0, 0%, 100%, 1) inset,
+    10px 10px 20px 0px hsla(216, 25%, 69%, 1) inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.fa-brands {
+  font-size: 4rem;
+}
+
+.fa-facebook {
+  color: hsla(223, 89%, 57%, 1);
+}
+
+.fa-twitter {
+  color: rgb(30, 30, 200);
+}
+
+.fa-instagram {
+  color: #ed4295;
+}
+
+.fa-linkedin {
+  color: blue;
+}
+
+.fa-envelope {
+  color: red;
+}
+
+.footer {
+  margin-top: 8rem;
+  height: 10%;
+  background-color: #14276b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d2e4fe;
+}
+
+@media (max-width: 900px) {
+  .headerimg {
+    width: 10rem;
+    height: 10rem;
+  }
+  .shadow {
+    width: 10rem;
+    height: 10rem;
+  }
+  .navbar {
+    /* margin-left: 1.5rem;
+    margin-right: 1rem; */
+    justify-content: space-between;
+  }
+
+  .skills,
+  .projects,
+  .about-me,
+  .contact {
+    font-size: 1rem;
+    font-weight: 300;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .skillsnav,
+  .projectsnav,
+  .aboutmenav,
+  .contactmenav {
+    position: absolute;
+    top: 17%;
+    /* justify-content: center; */
+  }
+}
