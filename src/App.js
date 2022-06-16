@@ -4,16 +4,26 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
+
 // import { bootstrap } from "react-icons/fa";
 
 function App() {
   return (
     <>
-      <Home></Home>
-      <Skills></Skills>
-      <Projects></Projects>
-      <About></About>
-      <Contact></Contact>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/skills" element={<Skills />}></Route>
+          <Route path="/project" element={<Projects />}>
+            {" "}
+          </Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+        </Routes>
+      </BrowserRouter>
+      <Footer></Footer>
     </>
   );
 }

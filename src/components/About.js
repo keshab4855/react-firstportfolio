@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import rotated from "../images/rotated.png";
 
 const About = () => {
@@ -10,16 +11,30 @@ const About = () => {
         </div>
         <div class="navbar aboutmenav">
           <div class="skills">
-            <h4>Skills</h4>
+            <Link to="/">
+              <h4>Home</h4>
+            </Link>
+          </div>
+          <div class="skills">
+            <Link to="/skills">
+              <h4>Skills</h4>
+            </Link>
           </div>
           <div class="projects">
-            <h4>Projects</h4>
+            <Link to="/project">
+              <h4>Projects</h4>
+            </Link>
           </div>
           <div class="about-me">
-            <h4>About me</h4>
+            <Link to="/about">
+              <h4>About me</h4>
+            </Link>
           </div>
           <div class="contact">
-            <h4>Contact</h4>
+            <Link to="/contact">
+              {" "}
+              <h4>Contact</h4>
+            </Link>
           </div>
         </div>
 

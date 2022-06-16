@@ -287,6 +287,18 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+.skillsnav > .skills h4 {
+  color: #fff;
+}
+.projectsnav > .projects h4 {
+  color: #fff;
+}
+.aboutmenav > .about-me h4 {
+  color: #fff;
+}
+.contactmenav > .contact h4 {
+  color: #fff;
+}
 
 .socialiconbox {
   margin-top: 12rem;
@@ -334,8 +346,7 @@ h3 {
 }
 
 .footer {
-  margin-top: 8rem;
-  height: 10%;
+  height: 5rem;
   background-color: #14276b;
   display: flex;
   justify-content: center;
