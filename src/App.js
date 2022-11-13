@@ -7,15 +7,13 @@ import Skills from "./components/Skills";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 
-// import { bootstrap } from "react-icons/fa";
-
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/skills" element={<Skills />}></Route>
+          <Route path="/Skills" element={<Skills />}></Route>
           <Route path="/project" element={<Projects />}>
             {" "}
           </Route>

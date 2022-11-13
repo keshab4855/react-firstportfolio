@@ -16,7 +16,7 @@ const Skills = () => {
             </Link>
           </div>
           <div class="skills">
-            <Link to="/skills">
+            <Link to="/Skills">
               <h4>Skills</h4>
             </Link>
           </div>
